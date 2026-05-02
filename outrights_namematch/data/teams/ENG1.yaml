@@ -1,0 +1,44 @@
+# Canonical team names for ENG1 (Premier League).
+#
+# The canonical `name` is what ends up in DynamoDB (homeTeam / awayTeam and
+# the EVENT# sort key slug). `altNames` covers aliases that the fuzzy
+# cascade cannot recover — the obvious one is Tottenham / Spurs. Aliases
+# that are edit-distance close (e.g. "Man City" <-> "Manchester City") are
+# listed defensively too.
+#
+# `handicap` is ≤ 0 and applied as `adjusted_points = points + handicap`
+# when we reconcile calculated vs external league tables.
+
+- name: Arsenal
+  altNames: [Arsenal FC]
+- name: Aston Villa
+  altNames: [Villa]
+- name: Bournemouth
+  altNames: [AFC Bournemouth]
+- name: Brentford
+- name: Brighton
+  altNames: [Brighton and Hove Albion, Brighton & Hove Albion]
+- name: Burnley
+- name: Chelsea
+- name: Crystal Palace
+  altNames: [Palace]
+- name: Everton
+- name: Fulham
+- name: Leeds
+  altNames: [Leeds United]
+- name: Liverpool
+- name: Man City
+  altNames: [Manchester City, Man. City]
+- name: Man United
+  altNames: [Manchester United, Man Utd, Man. United]
+- name: Newcastle
+  altNames: [Newcastle United, Newcastle Utd]
+- name: Nott'm Forest
+  altNames: [Nottingham Forest, Notts Forest, Forest]
+- name: Sunderland
+- name: Tottenham
+  altNames: [Spurs, Tottenham Hotspur]
+- name: West Ham
+  altNames: [West Ham United]
+- name: Wolves
+  altNames: [Wolverhampton, Wolverhampton Wanderers]
