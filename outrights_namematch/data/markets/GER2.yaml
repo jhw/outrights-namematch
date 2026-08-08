@@ -4,3 +4,6 @@
 - name: Promotion
   payoff: 2x1|0.5|15x0
   oddscheckerUrl: https://www.oddschecker.com/football/germany/bundesliga-2/german-bundesliga-2/promotion
+- name: Relegation
+  payoff: 15x0|1x0.5|2x1
+  oddscheckerUrl: https://www.oddschecker.com/football/germany/bundesliga-2/german-bundesliga-2/relegation

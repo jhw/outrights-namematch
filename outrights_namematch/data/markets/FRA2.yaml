@@ -1,3 +1,9 @@
 - name: Winner
   payoff: 1|17x0
   oddscheckerUrl: https://www.oddschecker.com/football/france/ligue-2/winner
+- name: Promotion
+  payoff: 2x1|3x0.1667|13x0
+  oddscheckerUrl: https://www.oddschecker.com/football/france/ligue-2/promotion
+- name: Relegation
+  payoff: 15x0|1x0.5|2x1
+  oddscheckerUrl: https://www.oddschecker.com/football/france/ligue-2/relegation

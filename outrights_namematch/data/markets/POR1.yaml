@@ -1,3 +1,6 @@
 - name: Winner
   payoff: 1|17x0
   oddscheckerUrl: https://www.oddschecker.com/football/portugal/primeira-liga/portuguese-primeira-liga/winner
+- name: Relegation
+  payoff: 15x0|1x0.5|2x1
+  oddscheckerUrl: https://www.oddschecker.com/football/portugal/primeira-liga/portuguese-primeira-liga/relegation
