@@ -10,6 +10,7 @@ Quick example:
     canonical = match("Barcelona", teams)    # -> None  (not in ENG1)
 """
 
+from .leagues import get_leagues_raw, get_markets_raw
 from .matcher import clean_text, match, match_matchup
 from .teams import Team, get_teams, get_teams_raw, list_leagues
 
@@ -21,6 +22,8 @@ __all__ = [
     "get_teams",
     "get_teams_raw",
     "list_leagues",
+    "get_leagues_raw",
+    "get_markets_raw",
 ]
 
-__version__ = "0.1.0"
+__version__ = "0.2.1"

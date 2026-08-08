@@ -7,12 +7,9 @@ the current team count.
 """
 from __future__ import annotations
 
-from importlib import resources
-
 import pytest
-import yaml
 
-from outrights_namematch import get_teams_raw, list_leagues
+from outrights_namematch import get_markets_raw, get_teams_raw, list_leagues
 
 
 ALL_LEAGUES = list_leagues()
@@ -24,10 +21,7 @@ def _country(league: str) -> str:
 
 
 def _load_markets(league: str) -> list[dict]:
-    path = resources.files("outrights_namematch").joinpath("data", "markets", f"{league}.yaml")
-    if not path.is_file():
-        return []
-    return yaml.safe_load(path.read_text()) or []
+    return get_markets_raw(league)
 
 
 def _payoff_length(payoff: str) -> int:
