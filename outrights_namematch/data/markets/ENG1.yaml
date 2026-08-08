@@ -39,8 +39,8 @@
   payoff: 19x0|1
   oddscheckerUrl: https://www.oddschecker.com/football/english/premier-league/to-finish-bottom
 - name: Top London Club
-  include: [Arsenal, Brentford, Chelsea, Crystal Palace, Fulham, Tottenham, West Ham]
-  payoff: 1|6x0
+  include: [Arsenal, Brentford, Chelsea, Crystal Palace, Fulham, Tottenham]
+  payoff: 1|5x0
   oddscheckerUrl: https://www.oddschecker.com/football/english/premier-league/top-london-club
 - name: Without Man City
   exclude: [Man City]
