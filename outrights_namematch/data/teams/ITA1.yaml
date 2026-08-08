@@ -1,0 +1,21 @@
+- name: Atalanta
+- name: Bologna
+- name: Cagliari
+- name: Como
+- name: Cremonese
+- name: Fiorentina
+- name: Genoa
+- name: Inter
+- name: Juventus
+- name: Lazio
+- name: Lecce
+- name: Milan
+- name: Napoli
+- name: Parma
+- name: Pisa
+- name: Roma
+- name: Sassuolo
+- name: Torino
+- name: Udinese
+- name: Verona
+  altNames: [Hellas Verona]

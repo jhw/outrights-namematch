@@ -1,0 +1,22 @@
+- name: Winner
+  payoff: 1|19x0
+  oddscheckerUrl: https://www.oddschecker.com/football/spain/la-liga-primera/la-liga/winner
+- name: Without Big Two
+  exclude: [Barcelona, Real Madrid]
+  payoff: 1|17x0
+  oddscheckerUrl: https://www.oddschecker.com/football/spain/la-liga-primera/la-liga/w-o-barcelona-real-madrid
+- name: Top Four
+  payoff: 4x1|16x0
+  oddscheckerUrl: https://www.oddschecker.com/football/spain/la-liga-primera/la-liga/top-4-finish
+- name: Top Six
+  payoff: 6x1|14x0
+  oddscheckerUrl: https://www.oddschecker.com/football/spain/la-liga-primera/la-liga/top-6-finish
+- name: Top Half
+  payoff: 10x1|10x0
+  oddscheckerUrl: https://www.oddschecker.com/football/spain/la-liga-primera/la-liga/top-10-finish
+- name: Relegation
+  payoff: 17x0|3x1
+  oddscheckerUrl: https://www.oddschecker.com/football/spain/la-liga-primera/la-liga/relegation
+- name: Bottom
+  payoff: 19x0|1
+  oddscheckerUrl: https://www.oddschecker.com/football/spain/la-liga-primera/la-liga/to-finish-bottom

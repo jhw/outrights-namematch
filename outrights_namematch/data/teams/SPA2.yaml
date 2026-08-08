@@ -1,0 +1,26 @@
+- name: Albacete
+- name: Almeria
+- name: Andorra
+- name: Burgos
+- name: Ceuta
+  altNames: [AD Ceuta, AD Ceuta FC]
+- name: Cordoba
+- name: Deportivo
+  altNames: [La Coruna]
+- name: Eibar
+- name: Granada
+- name: Huesca
+- name: Las Palmas
+- name: Leganes
+- name: Mirandes
+- name: Sp Gijon
+- name: Valladolid
+- name: Zaragoza
+- name: Cadiz
+- name: Racing
+  altNames: [Racing Santander]
+- name: Malaga
+- name: Castellon
+  altNames: [D Castellon, Deportivo Castellon]
+- name: Real Sociedad B
+- name: Cultural Leonesa

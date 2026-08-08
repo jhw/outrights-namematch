@@ -1,0 +1,13 @@
+- name: Winner
+  payoff: 1|17x0
+  oddscheckerUrl: https://www.oddschecker.com/football/netherlands/eredivisie/winner
+- name: Without PSV
+  exclude: [PSV Eindhoven]
+  payoff: 1|16x0
+  oddscheckerUrl: https://www.oddschecker.com/football/netherlands/eredivisie/w-o-psv
+- name: Top Three
+  payoff: 3x1|15x0
+  oddscheckerUrl: https://www.oddschecker.com/football/netherlands/eredivisie/top-3-finish
+- name: Relegation
+  payoff: 15x0|1x0.5|2x1
+  oddscheckerUrl: https://www.oddschecker.com/football/netherlands/eredivisie/relegation

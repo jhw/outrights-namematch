@@ -1,0 +1,31 @@
+- name: Winner
+  payoff: 1|17x0
+  oddscheckerUrl: https://www.oddschecker.com/football/france/ligue-1/winner
+- name: Without PSG
+  exclude: [Paris SG]
+  payoff: 1|16x0
+  oddscheckerUrl: https://www.oddschecker.com/football/france/ligue-1/w-o-psg
+- name: Top Three
+  payoff: 3x1|15x0
+  oddscheckerUrl: https://www.oddschecker.com/football/france/ligue-1/top-3-finish
+- name: Top Four
+  payoff: 4x1|14x0
+  oddscheckerUrl: https://www.oddschecker.com/football/france/ligue-1/top-4-finish
+- name: Top Six
+  payoff: 6x1|12x0
+  oddscheckerUrl: https://www.oddschecker.com/football/france/ligue-1/top-6-finish
+- name: Top Half
+  payoff: 9x1|9x0
+  oddscheckerUrl: https://www.oddschecker.com/football/france/ligue-1/top-10-finish
+- name: Relegation
+  payoff: 15x0|0.5|2x1
+  oddscheckerUrl: https://www.oddschecker.com/football/france/ligue-1/relegation
+- name: Bottom Three
+  payoff: 15x0|3x1
+  oddscheckerUrl: https://www.oddschecker.com/football/france/ligue-1/bottom-3-finish
+- name: Bottom Two
+  payoff: 16x0|2x1
+  oddscheckerUrl: https://www.oddschecker.com/football/france/ligue-1/bottom-2-finish
+- name: Bottom
+  payoff: 17x0|1
+  oddscheckerUrl: https://www.oddschecker.com/football/france/ligue-1/to-finish-bottom

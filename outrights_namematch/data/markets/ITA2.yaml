@@ -1,0 +1,9 @@
+- name: Winner
+  payoff: 1|19x0
+  oddscheckerUrl: https://www.oddschecker.com/football/italy/serie-b/italian-serie-b/winner
+- name: Promotion
+  payoff: 2x1|6x0.25|12x0
+  oddscheckerUrl: https://www.oddschecker.com/football/italy/serie-b/italian-serie-b/promotion
+- name: Relegation
+  payoff: 15x0|2x0.5|3x1
+  oddscheckerUrl: https://www.oddschecker.com/football/italy/serie-b/italian-serie-b/relegation

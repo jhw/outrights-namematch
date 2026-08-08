@@ -1,0 +1,30 @@
+- name: Winner
+  payoff: 1|19x0
+  oddscheckerUrl: https://www.oddschecker.com/football/italy/serie-a/italy-serie-a/winner
+- name: Top Two
+  payoff: 2x1|18x0
+  oddscheckerUrl: https://www.oddschecker.com/football/italy/serie-a/italy-serie-a/top-2-finish
+- name: Top Four
+  payoff: 4x1|16x0
+  oddscheckerUrl: https://www.oddschecker.com/football/italy/serie-a/italy-serie-a/top-4-finish
+- name: Outside Top Four
+  payoff: 4x0|16x1
+  oddscheckerUrl: https://www.oddschecker.com/football/italy/serie-a/italy-serie-a/not-to-finish-top-4
+- name: Top Six
+  payoff: 6x1|14x0
+  oddscheckerUrl: https://www.oddschecker.com/football/italy/serie-a/italy-serie-a/top-6-finish
+- name: Top Half
+  payoff: 10x1|10x0
+  oddscheckerUrl: https://www.oddschecker.com/football/italy/serie-a/italy-serie-a/top-10-finish
+- name: Relegation
+  payoff: 17x0|3x1
+  oddscheckerUrl: https://www.oddschecker.com/football/italy/serie-a/italy-serie-a/relegation
+- name: To Stay Up
+  payoff: 17x1|3x0
+  oddscheckerUrl: https://www.oddschecker.com/football/italy/serie-a/italy-serie-a/to-stay-up
+- name: Bottom Three
+  payoff: 17x0|3x1
+  oddscheckerUrl: https://www.oddschecker.com/football/italy/serie-a/italy-serie-a/bottom-3-finish
+- name: Bottom
+  payoff: 19x0|1
+  oddscheckerUrl: https://www.oddschecker.com/football/italy/serie-a/italy-serie-a/to-finish-bottom

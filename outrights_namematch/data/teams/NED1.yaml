@@ -1,0 +1,21 @@
+- name: Ajax
+- name: AZ Alkmaar
+- name: Excelsior
+- name: Feyenoord
+- name: Fortuna Sittard
+  altNames: [Fortuna]
+- name: Go Ahead Eagles
+- name: Groningen
+- name: Heerenveen
+- name: Heracles
+- name: NAC Breda
+- name: Nijmegen
+  altNames: [NEC]
+- name: PSV Eindhoven
+  altNames: [PSV]
+- name: Sparta Rotterdam
+- name: Telstar
+- name: Twente
+- name: Utrecht
+- name: Volendam
+- name: Zwolle

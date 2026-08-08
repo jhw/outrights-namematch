@@ -1,0 +1,25 @@
+- name: Porto
+- name: Sporting CP
+  altNames: [Sporting Lisbon, Sp Lisbon]
+- name: Benfica
+- name: Moreirense
+- name: Gil Vicente
+- name: Famalicao
+  altNames: ["Famalic\u00e3o"]
+- name: Sporting Braga
+  altNames: [Braga]
+- name: Vitoria Guimaraes
+  altNames: ["Vit\u00f3ria Guimar\u00e3es"]
+- name: Arouca
+- name: Santa Clara
+- name: Estrela
+  altNames: [Amadora]
+- name: Casa Pia
+- name: Estoril
+  altNames: [Estoril-Praia]
+- name: Tondela
+- name: Nacional
+  altNames: [Club Nacional de Football]
+- name: Rio Ave
+- name: Alverca
+- name: AVS
