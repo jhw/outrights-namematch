@@ -4,10 +4,9 @@
 - name: Ein Frankfurt
   altNames: [Eintracht Frankfurt]
 - name: FC Koln
-  altNames: [Koln, "K\u00f6ln", Cologne]
+  altNames: [Koln, Köln, Cologne]
 - name: Freiburg
 - name: Hamburg
-- name: Heidenheim
 - name: Hoffenheim
 - name: Leverkusen
   altNames: [Bayer 04 Leverkusen]
@@ -15,8 +14,9 @@
   altNames: [Borussia Monchengladbach]
 - name: Mainz
 - name: RB Leipzig
-- name: St Pauli
 - name: Stuttgart
 - name: Union Berlin
 - name: Werder Bremen
-- name: Wolfsburg
+- name: Schalke 04
+- name: Elversberg
+- name: Paderborn

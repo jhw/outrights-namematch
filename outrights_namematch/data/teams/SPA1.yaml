@@ -9,11 +9,8 @@
 - name: Elche
 - name: Espanol
 - name: Getafe
-- name: Girona
 - name: Levante
-- name: Mallorca
 - name: Osasuna
-- name: Oviedo
 - name: Rayo Vallecano
 - name: Real Betis
 - name: Real Madrid
@@ -21,3 +18,8 @@
 - name: Sevilla
 - name: Valencia
 - name: Villarreal
+- name: Racing
+  altNames: [Racing Santander]
+- name: Deportivo
+  altNames: [La Coruna]
+- name: Malaga

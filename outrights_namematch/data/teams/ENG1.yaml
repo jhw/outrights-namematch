@@ -18,7 +18,6 @@
 - name: Brentford
 - name: Brighton
   altNames: [Brighton and Hove Albion, Brighton & Hove Albion]
-- name: Burnley
 - name: Chelsea
 - name: Crystal Palace
   altNames: [Palace]
@@ -38,7 +37,9 @@
 - name: Sunderland
 - name: Tottenham
   altNames: [Spurs, Tottenham Hotspur]
-- name: West Ham
-  altNames: [West Ham United]
-- name: Wolves
-  altNames: [Wolverhampton, Wolverhampton Wanderers]
+- name: Coventry
+  altNames: [Coventry City]
+- name: Ipswich
+  altNames: [Ipswich Town]
+- name: Hull
+  altNames: [Hull City]

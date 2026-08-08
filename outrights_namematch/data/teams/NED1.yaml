@@ -7,8 +7,6 @@
 - name: Go Ahead Eagles
 - name: Groningen
 - name: Heerenveen
-- name: Heracles
-- name: NAC Breda
 - name: Nijmegen
   altNames: [NEC]
 - name: PSV Eindhoven
@@ -17,5 +15,8 @@
 - name: Telstar
 - name: Twente
 - name: Utrecht
-- name: Volendam
 - name: Zwolle
+- name: ADO Den Haag
+- name: Cambuur
+  altNames: [SC Cambuur]
+- name: Willem II

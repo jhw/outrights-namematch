@@ -1,21 +1,24 @@
 - name: Avellino
-- name: Bari
 - name: Catanzaro
 - name: Empoli
-- name: Frosinone
 - name: Modena
-- name: Monza
 - name: Padova
 - name: Palermo
-- name: Pescara
-- name: Reggiana
 - name: Sampdoria
-- name: Spezia
 - name: Sudtirol
   altNames: [Alto Adige, Fc Sudtirol Bolzano]
-- name: Venezia
 - name: Virtus Entella
 - name: Cesena
 - name: Juve Stabia
 - name: Carrarese
 - name: Mantova
+- name: Cremonese
+- name: Verona
+  altNames: [Hellas Verona]
+- name: Pisa
+- name: Vicenza
+  altNames: [LR Vicenza]
+- name: Arezzo
+  altNames: [SS Arezzo]
+- name: Benevento
+- name: Ascoli

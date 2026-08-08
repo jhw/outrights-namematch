@@ -1,5 +1,3 @@
-- name: Airdrie Utd
-  altNames: [Airdrieonians]
 - name: Arbroath
 - name: Ayr
 - name: Dunfermline
@@ -12,6 +10,7 @@
   altNames: [Queen's Park]
 - name: Raith Rvs
   altNames: [Raith Rovers]
-- name: Ross County
-- name: St Johnstone
-  altNames: [St. Johnstone]
+- name: Livingston
+- name: Inverness C
+  altNames: [Inverness CT]
+- name: Stenhousemuir

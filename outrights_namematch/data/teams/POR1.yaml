@@ -5,11 +5,11 @@
 - name: Moreirense
 - name: Gil Vicente
 - name: Famalicao
-  altNames: ["Famalic\u00e3o"]
+  altNames: [Famalicão]
 - name: Sporting Braga
   altNames: [Braga]
 - name: Vitoria Guimaraes
-  altNames: ["Vit\u00f3ria Guimar\u00e3es"]
+  altNames: [Vitória Guimarães]
 - name: Arouca
 - name: Santa Clara
 - name: Estrela
@@ -17,9 +17,11 @@
 - name: Casa Pia
 - name: Estoril
   altNames: [Estoril-Praia]
-- name: Tondela
 - name: Nacional
   altNames: [Club Nacional de Football]
 - name: Rio Ave
 - name: Alverca
-- name: AVS
+- name: Maritimo
+  altNames: [Marítimo, CS Maritimo]
+- name: Academico Viseu
+  altNames: [Académico de Viseu]

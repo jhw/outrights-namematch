@@ -5,22 +5,23 @@
 - name: Ceuta
   altNames: [AD Ceuta, AD Ceuta FC]
 - name: Cordoba
-- name: Deportivo
-  altNames: [La Coruna]
 - name: Eibar
 - name: Granada
-- name: Huesca
 - name: Las Palmas
 - name: Leganes
-- name: Mirandes
 - name: Sp Gijon
 - name: Valladolid
-- name: Zaragoza
 - name: Cadiz
-- name: Racing
-  altNames: [Racing Santander]
-- name: Malaga
 - name: Castellon
   altNames: [D Castellon, Deportivo Castellon]
 - name: Real Sociedad B
-- name: Cultural Leonesa
+- name: Mallorca
+- name: Girona
+- name: Oviedo
+- name: Tenerife
+  altNames: [CD Tenerife]
+- name: Eldense
+  altNames: [CD Eldense]
+- name: Sabadell
+  altNames: [CE Sabadell]
+- name: Celta Fortuna

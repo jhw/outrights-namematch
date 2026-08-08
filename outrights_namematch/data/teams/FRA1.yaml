@@ -8,9 +8,7 @@
 - name: Lyon
   altNames: [Olympique Lyonnais]
 - name: Marseille
-- name: Metz
 - name: Monaco
-- name: Nantes
 - name: Nice
 - name: Paris FC
 - name: Paris SG
@@ -18,3 +16,5 @@
 - name: Rennes
 - name: Strasbourg
 - name: Toulouse
+- name: Troyes
+- name: Le Mans

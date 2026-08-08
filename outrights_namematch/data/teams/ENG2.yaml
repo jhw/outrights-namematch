@@ -7,31 +7,19 @@
 - name: Bristol City
 - name: Charlton
   altNames: [Charlton Athletic]
-- name: Coventry
-  altNames: [Coventry City]
 - name: Derby
   altNames: [Derby County]
-- name: Hull
-  altNames: [Hull City]
-- name: Ipswich
-  altNames: [Ipswich Town]
-- name: Leicester
-  altNames: [Leicester City]
 - name: Middlesbrough
   altNames: [Boro]
 - name: Millwall
 - name: Norwich
   altNames: [Norwich City]
-- name: Oxford
-  altNames: [Oxford United, Oxford Utd]
 - name: Portsmouth
   altNames: [Pompey]
 - name: Preston
   altNames: [Preston North End, PNE]
 - name: QPR
   altNames: [Queens Park Rangers]
-- name: Sheffield Weds
-  altNames: [Sheffield Wednesday, Sheff Wed, Sheff Weds]
 - name: Sheffield United
   altNames: [Sheff United, Sheff Utd]
 - name: Southampton
@@ -45,3 +33,11 @@
   altNames: [West Bromwich Albion, WBA]
 - name: Wrexham
   altNames: [Wrexham AFC]
+- name: Wolves
+  altNames: [Wolverhampton, Wolverhampton Wanderers]
+- name: Burnley
+- name: West Ham
+  altNames: [West Ham United]
+- name: Lincoln
+- name: Cardiff
+- name: Bolton

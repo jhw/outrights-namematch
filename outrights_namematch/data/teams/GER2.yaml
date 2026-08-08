@@ -1,8 +1,6 @@
 - name: Bochum
 - name: Braunschweig
 - name: Darmstadt
-- name: Elversberg
-- name: Fortuna Dusseldorf
 - name: Greuther Furth
 - name: Hannover
 - name: Hertha
@@ -11,11 +9,14 @@
 - name: Karlsruhe
 - name: Magdeburg
 - name: Nurnberg
-- name: Paderborn
-- name: Schalke 04
 - name: Arminia
   altNames: [Bielefeld]
-- name: Munster
-  altNames: ["Preu\u00dfen M\u00fcnster"]
 - name: Dynamo
   altNames: [Dresden]
+- name: St Pauli
+- name: Heidenheim
+- name: Wolfsburg
+- name: Osnabruck
+  altNames: [VfL Osnabruck, Osnabrück]
+- name: Energie Cottbus
+  altNames: [FC Energie Cottbus, Cottbus]
