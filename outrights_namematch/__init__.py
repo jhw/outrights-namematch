@@ -12,6 +12,7 @@ Quick example:
 
 from .leagues import get_leagues_raw, get_markets_raw
 from .matcher import clean_text, match, match_matchup
+from .payoff import parse_payoff
 from .teams import Team, get_teams, get_teams_raw, list_leagues
 
 __all__ = [
@@ -24,6 +25,7 @@ __all__ = [
     "list_leagues",
     "get_leagues_raw",
     "get_markets_raw",
+    "parse_payoff",
 ]
 
-__version__ = "0.2.1"
+__version__ = "0.3.0"
