@@ -49,10 +49,25 @@ def _names_for(entity: dict) -> list[str]:
     return names
 
 
+_SHORT_NAME_LEN = 8
+
+
 def _levenshtein_le_2(x: str, y: str) -> bool:
+    """Distance <=2, but capped at <=1 when either side is a short (<8-char)
+    single-word-ish name.
+
+    Short English town names are dense in this space — "Burton"/"Bolton"
+    and "Luton"/"Burton" both sit at distance 2, as do unrelated clubs
+    like "Roma"/"Como". A raw source string for a team that isn't even in
+    the current roster (e.g. a division-mate from a prior season) can
+    then silently resolve to the wrong in-roster team instead of falling
+    through to token/abbrev matching or None. Longer names have enough
+    entropy that distance <=2 stays safe (typos, diacritics).
+    """
     if abs(len(x) - len(y)) > 2:
         return False
-    return Levenshtein.distance(x, y, score_cutoff=2) <= 2
+    cutoff = 1 if min(len(x), len(y)) < _SHORT_NAME_LEN else 2
+    return Levenshtein.distance(x, y, score_cutoff=cutoff) <= cutoff
 
 
 def _is_abbrev(abbrev: str, text: str) -> bool:

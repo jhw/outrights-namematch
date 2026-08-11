@@ -33,6 +33,15 @@ def test_levenshtein_close_match():
     assert match("Arsenall", TEAMS) == "Arsenal"
 
 
+def test_levenshtein_rejects_short_name_distance_two():
+    # "Bolton" is a real club, distance 2 from "Burton", but not in this
+    # roster — a raw source string for it must NOT resolve to the wrong
+    # in-roster team. Regression for the Burton/Bolton event merge bug.
+    teams = [{"name": "Burton"}, {"name": "Mansfield"}]
+    assert match("Bolton", teams) is None
+    assert match("Luton", teams) is None
+
+
 def test_abbrev_match():
     # Abbreviation walker: "MC" -> "Manchester City"
     assert match("MC", TEAMS) == "Manchester City"
