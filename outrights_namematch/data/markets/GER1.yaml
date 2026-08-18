@@ -8,18 +8,9 @@
 - name: Top Four
   payoff: 4x1|14x0
   oddscheckerUrl: https://www.oddschecker.com/football/germany/bundesliga/german-bundesliga/top-4-finish
-- name: Top Half
-  payoff: 9x1|9x0
-  oddscheckerUrl: https://www.oddschecker.com/football/germany/bundesliga/german-bundesliga/top-9-finish
+- name: Top Six
+  payoff: 6x1|12x0
+  oddscheckerUrl: https://www.oddschecker.com/football/germany/bundesliga/german-bundesliga/top-6-finish
 - name: Relegation
   payoff: 15x0|1x0.5|2x1
   oddscheckerUrl: https://www.oddschecker.com/football/germany/bundesliga/german-bundesliga/relegation
-- name: Bottom Three
-  payoff: 15x0|3x1
-  oddscheckerUrl: https://www.oddschecker.com/football/germany/bundesliga/german-bundesliga/bottom-3-finish
-- name: Bottom Two
-  payoff: 16x0|2x1
-  oddscheckerUrl: https://www.oddschecker.com/football/germany/bundesliga/german-bundesliga/bottom-2-finish
-- name: Bottom
-  payoff: 17x0|1
-  oddscheckerUrl: https://www.oddschecker.com/football/germany/bundesliga/german-bundesliga/to-finish-bottom

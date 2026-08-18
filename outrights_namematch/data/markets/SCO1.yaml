@@ -1,3 +1,16 @@
 - name: Winner
   payoff: 1|11x0
   oddscheckerUrl: https://www.oddschecker.com/football/scottish/premiership/scottish-premiership/winner
+- name: Without Celtic and Rangers
+  exclude: [Celtic, Rangers]
+  payoff: 1|9x0
+  oddscheckerUrl: https://www.oddschecker.com/football/scottish/premiership/scottish-premiership/without-celtic-and-rangers
+- name: Top Six
+  payoff: 6x1|6x0
+  oddscheckerUrl: https://www.oddschecker.com/football/scottish/premiership/scottish-premiership/top-6-finish
+- name: Bottom Six
+  payoff: 6x0|6x1
+  oddscheckerUrl: https://www.oddschecker.com/football/scottish/premiership/scottish-premiership/bottom-6-finish
+- name: Bottom
+  payoff: 11x0|1
+  oddscheckerUrl: https://www.oddschecker.com/football/scottish/premiership/scottish-premiership/to-finish-bottom
