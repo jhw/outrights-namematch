@@ -14,6 +14,9 @@
 - name: Top Four
   payoff: 4x1|16x0
   oddscheckerUrl: https://www.oddschecker.com/football/english/premier-league/top-4-finish
+- name: Top Five
+  payoff: 5x1|15x0
+  oddscheckerUrl: https://www.oddschecker.com/football/english/premier-league/top-5-finish
 - name: Outside Top Four
   payoff: 4x0|16x1
   oddscheckerUrl: https://www.oddschecker.com/football/english/premier-league/to-finish-outside-the-top-4
@@ -46,3 +49,7 @@
   exclude: [Man City]
   payoff: 1|18x0
   oddscheckerUrl: https://www.oddschecker.com/football/english/premier-league/w-o-man-city
+- name: Without Arsenal
+  exclude: [Arsenal]
+  payoff: 1|18x0
+  oddscheckerUrl: https://www.oddschecker.com/football/english/premier-league/w-o-arsenal

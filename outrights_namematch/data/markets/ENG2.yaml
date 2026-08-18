@@ -7,6 +7,9 @@
 - name: Promotion
   payoff: 2x1|4x0.25|18x0
   oddscheckerUrl: https://www.oddschecker.com/football/english/championship/promotion
+- name: To Make The Playoffs
+  payoff: 2x0|4x1|18x0
+  oddscheckerUrl: https://www.oddschecker.com/football/english/championship/to-make-the-playoffs
 - name: Top Six
   payoff: 6x1|18x0
   oddscheckerUrl: https://www.oddschecker.com/football/english/championship/top-6-finish
@@ -16,6 +19,9 @@
 - name: Top Half
   payoff: 12x1|12x0
   oddscheckerUrl: https://www.oddschecker.com/football/english/championship/to-finish-in-top-half
+- name: Bottom Half
+  payoff: 12x0|12x1
+  oddscheckerUrl: https://www.oddschecker.com/football/english/championship/to-finish-in-bottom-half
 - name: Relegation
   payoff: 21x0|3x1
   oddscheckerUrl: https://www.oddschecker.com/football/english/championship/relegation
