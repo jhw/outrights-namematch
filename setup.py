@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="outrights-namematch",
-    version="0.5.5",
+    version="0.5.6",
     description="Fuzzy team-name resolution + canonical team/market data for outrights-* services.",
     url="https://github.com/jhw/outrights-namematch",
     packages=find_packages(exclude=["tests", "tests.*"]),

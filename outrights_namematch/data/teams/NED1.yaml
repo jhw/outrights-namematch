@@ -17,6 +17,7 @@
 - name: Utrecht
 - name: Zwolle
 - name: ADO Den Haag
+  altNames: [Den Haag]
 - name: Cambuur
   altNames: [SC Cambuur]
 - name: Willem II
