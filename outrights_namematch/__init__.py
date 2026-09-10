@@ -17,6 +17,7 @@ only needs the bundled static data (`get_markets_raw`, `get_teams_raw`,
 install) is required before touching the three matcher symbols.
 """
 
+from .bookmakers import get_bookmakers_raw
 from .leagues import get_leagues_raw, get_markets_raw
 from .payoff import parse_payoff
 from .teams import Team, get_teams, get_teams_raw, list_leagues
@@ -31,10 +32,11 @@ __all__ = [
     "list_leagues",
     "get_leagues_raw",
     "get_markets_raw",
+    "get_bookmakers_raw",
     "parse_payoff",
 ]
 
-__version__ = "0.5.5"
+__version__ = "0.6.0"
 
 _MATCHER_SYMBOLS = {"match", "match_matchup", "clean_text"}
 

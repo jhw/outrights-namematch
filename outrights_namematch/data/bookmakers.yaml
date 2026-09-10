@@ -1,0 +1,164 @@
+# Canonical bookmaker catalog — one flat list, not per-league (unlike
+# teams/markets). `altNames` covers casing/spacing variants seen on the
+# wire (Oddschecker's own embedded bookmaker-name map, hub's marks[]
+# prices[], scraped HTML) that a straight fuzzy/exact match on `name`
+# would otherwise miss.
+#
+# Merged from outrights-sst's config/core-data/bookmakers.json (the
+# longest-standing list, 34 entries) plus 4 bookmakers confirmed live on
+# Oddschecker's ENG1 "Winner" market (2026-09-10) that appeared in none of
+# the existing per-app lists: BetAhoy, BetTom, Ivybet, Parimatch. Dropped
+# "Unknown" (sst's placeholder for unattributed prices, not a real
+# bookmaker).
+#
+# Maximal, same discipline as markets.yaml: a live-scrape run that doesn't
+# see a bookmaker on a given day is not grounds to remove it here — only
+# ever add.
+- name: 10Bet
+  altNames:
+  - 10 Bet
+  - TenBet
+- name: 888sport
+  altNames:
+  - 888 Sport
+  - 888-Sport
+- name: AK Bets
+  altNames:
+  - AKBets
+  - AK-Bets
+- name: Bet UK
+  altNames:
+  - BetUK
+  - Bet-UK
+- name: bet365
+  altNames:
+  - Bet365
+  - BET365
+  - bet 365
+- name: BetAhoy
+- name: Betfair
+  altNames:
+  - BetFair
+  - Bet Fair
+  - Betfair Sportsbook
+- name: Betfair Exchange
+  altNames:
+  - BetfairExchange
+  - Betfair-Exchange
+  - Exchange
+- name: Betfred
+  altNames:
+  - BetFred
+  - Bet Fred
+- name: BetGoodwin
+  altNames:
+  - Bet Goodwin
+  - Bet-Goodwin
+- name: BetMGM UK
+  altNames:
+  - BetMGM
+  - Bet MGM
+- name: BetTom
+- name: BetVictor
+  altNames:
+  - Bet Victor
+  - Victor Chandler
+  - BV
+- name: Betway
+  altNames:
+  - BetWay
+  - Bet Way
+- name: BoyleSports
+  altNames:
+  - Boyle Sports
+  - Boyle-Sports
+  - Boyles
+  - Boylesports
+- name: BresBet
+  altNames:
+  - Bres Bet
+  - Bres-Bet
+- name: bwin
+  altNames:
+  - Bwin
+  - BWIN
+  - B-Win
+- name: Coral
+  altNames:
+  - Coral.co.uk
+- name: Ivybet
+- name: Ladbrokes
+  altNames:
+  - Lads
+  - Ladbroke
+  - Ladbrokes Coral
+- name: Marathon Bet
+  altNames:
+  - MarathonBet
+  - Marathon-Bet
+  - MBet
+- name: Matchbook
+  altNames:
+  - Match Book
+  - Match-Book
+- name: Paddy Power
+  altNames:
+  - PaddyPower
+  - Paddy-Power
+- name: Parimatch
+- name: PricedUp
+  altNames:
+  - Priced Up
+  - Priced-Up
+- name: QuinnBet
+  altNames:
+  - Quinn Bet
+  - Quinn-Bet
+- name: SkyBet
+  altNames:
+  - Sky Bet
+  - Sky-Bet
+  - SkyBetting
+- name: Sporting Bet
+  altNames:
+  - SportingBet
+  - Sporting-Bet
+- name: Sporting Index
+  altNames:
+  - SportingIndex
+  - Sporting-Index
+- name: Spreadex
+  altNames:
+  - Spread Ex
+  - SpreadEx
+- name: Stan James
+  altNames:
+  - StanJames
+  - Stan-James
+- name: StarSports
+  altNames:
+  - Star Sports
+  - Star-Sports
+- name: Totesport
+  altNames:
+  - Tote Sport
+  - Tote-Sport
+  - Tote
+- name: Unibet
+  altNames:
+  - UniBet
+  - Uni Bet
+- name: Vbet
+  altNames:
+  - V Bet
+  - V-Bet
+- name: Virgin Bet
+  altNames:
+  - VirginBet
+  - Virgin-Bet
+- name: William Hill
+  altNames:
+  - WillHill
+  - Will Hill
+  - William-Hill
+  - Hills
