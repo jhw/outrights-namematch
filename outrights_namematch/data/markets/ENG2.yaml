@@ -1,6 +1,6 @@
 - name: Winner
   payoff: 1|23x0
-  oddscheckerUrl: https://www.oddschecker.com/football/english/championship/winner
+  oddscheckerUrl: https://www.oddschecker.com/football/english/championship/win-market
 - name: Top Two
   payoff: 2x1|22x0
   oddscheckerUrl: https://www.oddschecker.com/football/english/championship/top-2-finish

@@ -1,6 +1,6 @@
 - name: Winner
   payoff: 1|19x0
-  oddscheckerUrl: https://www.oddschecker.com/football/english/premier-league/winner
+  oddscheckerUrl: https://www.oddschecker.com/football/english/premier-league/win-market
 - name: Without Big Seven
   exclude: [Arsenal, Chelsea, Liverpool, Man City, Man United, Newcastle, Tottenham]
   payoff: 1|12x0
