@@ -18,6 +18,10 @@
   altNames:
   - 10 Bet
   - TenBet
+- name: 7Bet
+  altNames:
+  - 7 Bet
+  - 7-Bet
 - name: 888sport
   altNames:
   - 888 Sport
@@ -26,6 +30,13 @@
   altNames:
   - AKBets
   - AK-Bets
+- name: All British Casino
+  altNames:
+  - All British
+- name: Bally Bet
+  altNames:
+  - BallyBet
+  - Bally-Bet
 - name: Bet UK
   altNames:
   - BetUK
@@ -36,6 +47,7 @@
   - BET365
   - bet 365
 - name: BetAhoy
+- name: Betano
 - name: Betfair
   altNames:
   - BetFair
@@ -58,6 +70,7 @@
   altNames:
   - BetMGM
   - Bet MGM
+- name: Betrino
 - name: BetTom
 - name: BetVictor
   altNames:
@@ -101,6 +114,10 @@
   altNames:
   - Match Book
   - Match-Book
+- name: NetBet
+  altNames:
+  - Netbet
+  - Net Bet
 - name: Paddy Power
   altNames:
   - PaddyPower
