@@ -36,7 +36,7 @@ __all__ = [
     "parse_payoff",
 ]
 
-__version__ = "0.6.0"
+__version__ = "0.7.0"
 
 _MATCHER_SYMBOLS = {"match", "match_matchup", "clean_text"}
 

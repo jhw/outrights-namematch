@@ -25,3 +25,6 @@
 - name: Bottom
   payoff: 23x0|1
   oddscheckerUrl: https://www.oddschecker.com/football/english/league-1/english-league-one/to-finish-bottom
+- name: To Stay Up
+  payoff: 20x1|4x0
+  oddscheckerUrl: https://www.oddschecker.com/football/english/league-1/english-league-one/to-stay-up

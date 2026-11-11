@@ -53,3 +53,6 @@
   exclude: [Arsenal]
   payoff: 1|18x0
   oddscheckerUrl: https://www.oddschecker.com/football/english/premier-league/w-o-arsenal
+- name: Top Eight
+  payoff: 8x1|12x0
+  oddscheckerUrl: https://www.oddschecker.com/football/english/premier-league/top-8-finish

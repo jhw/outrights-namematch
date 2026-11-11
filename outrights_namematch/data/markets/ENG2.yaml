@@ -28,3 +28,6 @@
 - name: Bottom
   payoff: 23x0|1
   oddscheckerUrl: https://www.oddschecker.com/football/english/championship/to-finish-bottom
+- name: To Stay Up
+  payoff: 21x1|3x0
+  oddscheckerUrl: https://www.oddschecker.com/football/english/championship/to-stay-up

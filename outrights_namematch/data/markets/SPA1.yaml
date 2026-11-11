@@ -20,3 +20,9 @@
 - name: Bottom
   payoff: 19x0|1
   oddscheckerUrl: https://www.oddschecker.com/football/spain/la-liga-primera/la-liga/to-finish-bottom
+- name: Top Five
+  payoff: 5x1|15x0
+  oddscheckerUrl: https://www.oddschecker.com/football/spain/la-liga-primera/la-liga/top-5-finish
+- name: To Stay Up
+  payoff: 17x1|3x0
+  oddscheckerUrl: https://www.oddschecker.com/football/spain/la-liga-primera/la-liga/to-stay-up
